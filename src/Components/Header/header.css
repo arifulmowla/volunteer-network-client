@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  width: 100px;
+}
+.logo {
+  width: 100%;
+}

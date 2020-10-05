@@ -1,0 +1,35 @@
+.volunteer-form {
+  text-align: center;
+}
+
+.form-logo {
+  max-width: 150px;
+}
+
+.register-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border: 1px solid lightblue;
+}
+
+.from-custom {
+  margin: 10px 0;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid lightblue !important;
+}
+
+.btn-full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+  .volunteer-form {
+    padding: 60px 0;
+  }
+  .register-form {
+    margin-top: 30px;
+  }
+}

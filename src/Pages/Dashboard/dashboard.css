@@ -1,0 +1,36 @@
+.dashboard {
+  background-color: rgba(197, 197, 197, 0.4);
+  min-height: 100vh;
+}
+
+.activity {
+}
+
+.act-card {
+  display: flex;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px 20px;
+  margin: 15px 0px;
+  border-radius: 12px;
+}
+
+.act-img {
+  width: 25%;
+  height: 140px;
+}
+.act-img img {
+  height: 100%;
+}
+.act-content {
+  margin-left: 15px;
+}
+
+.act-content .act-content-top h3 {
+  font-weight: bold;
+}
+.act-content .btn-light {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
