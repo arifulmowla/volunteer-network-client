@@ -64,16 +64,17 @@ const Header = () => {
               </Nav.Link>
               {!loggedInUser.isAuthenticated && (
                 <>
-                  <Nav.Link href="/login" className="mx-1">
+                  <Link to="/login" className="m-2">
                     <Button varient="primary" className="btn btn-primary">
                       Register
                     </Button>
-                  </Nav.Link>
-                  <Nav.Link href="/admin-dashboard" className="mx-1">
+                  </Link>
+
+                  <Link to="/admin-dashboard" className="m-2">
                     <Button varient="secondary" className="btn btn-secondary">
                       Admin
                     </Button>
-                  </Nav.Link>
+                  </Link>
                 </>
               )}
 

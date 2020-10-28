@@ -60,6 +60,7 @@ const AdminDashboard = () => {
           variant="danger"
           onClick={(event) => {
             const document = event.target.parentNode.parentNode.parentNode;
+            console.log(document);
             deleteEntry({ id: row._id }, document);
           }}
         >

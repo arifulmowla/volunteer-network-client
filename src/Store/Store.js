@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom";
 
-const serverDomain = "http://127.0.0.1:5000";
+const serverDomain = "https://agile-dawn-27017.herokuapp.com";
 
 export const getAllServices = async () => {
   const url = serverDomain + "/api/get-services/";
